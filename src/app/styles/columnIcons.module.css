@@ -1,0 +1,16 @@
+.box {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: all 0.3s;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menuOpen {
+  width: 176px;
+}
+
+.menuClosed {
+  width: 56px;
+}
