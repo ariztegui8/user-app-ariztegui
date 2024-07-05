@@ -1,0 +1,84 @@
+.box_dataUser{
+    background-color: #ffffff;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.box_dataUser_parraf{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F172A;
+    margin: 0;
+    padding: 20px;
+}
+
+.hr_color{
+    border: none;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 0;
+}
+
+.description{
+    padding: 30px;
+}
+
+.user_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.user_flex_mod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.user_flex_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user_flex_itemObj{
+    font-size: 14px;
+    color: #959595;
+    margin: 0;
+}
+
+.user_flex_itemValor{
+    font-size: 14px;
+    color: #0F172A;
+    margin: 0;
+}
+
+.user_flex_itemValorModif{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .user_flex{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .user_flex_mod{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    
+    }
+}
+
+@media (min-width: 1024px) {
+   
+}

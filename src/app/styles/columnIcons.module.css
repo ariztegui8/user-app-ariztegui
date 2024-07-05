@@ -1,10 +1,12 @@
 .box {
-  padding: 10px;
+  padding: 20px 10px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   min-height: 100vh;
   transition: all 0.3s;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #fafafa;
 }
 
 .menuOpen {
@@ -12,5 +14,17 @@
 }
 
 .menuClosed {
-  width: 56px;
+  width: 40px;
+}
+
+.mb_forward{
+  margin-bottom: 50px;
+}
+
+.hr_color {
+  border: none;
+  height: 1px;
+  background-color: #E0E0E0;
+  margin: 30px 0;
+  width: 100%;
 }

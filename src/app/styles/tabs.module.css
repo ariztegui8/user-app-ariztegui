@@ -1,34 +1,84 @@
-.box{
+.box {
     background: #fff;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fafafa;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0;
 
 }
 
-.tabs{
+.tabs {
     display: flex;
-
 }
 
-.tab_btn{
+.tab_btn {
     background: #fff;
-    padding: 10px 20px;
+    padding: 0 30px;
     cursor: pointer;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tab_btn_active{
+.tab_btn_active {
     background: #85C88A;
-    padding: 10px 20px;
+    padding: 0 30px;
     cursor: pointer;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tab_title{
+.tab_title {
     margin: 0;
     color: #0F172A;
+    font-size: 14px;
+}
 
+.tab_title_active {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.input_group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search_input {
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #94A3B8;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    outline-color: #85C88A;
+}
+
+.search_icon {
+    position: absolute;
+    left: 10px;
+}
+
+@media (max-width: 768px) {
+    .input_group{
+        display: none;
+    }
+
+    .tab_btn{
+        padding: 0 10px;
+    }
+
+    .tab_btn_active{
+        padding: 0 10px;
+    }
 }

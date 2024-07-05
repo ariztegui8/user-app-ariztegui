@@ -10,28 +10,34 @@ const Navbar = () => {
         <div className={style.navbar}>
             <div className={style.navbar_padre}>
                 <div className={style.logo}>
-                   <div className={style.image_rounded}>
-                    <Image src="/images/user.png" layout="fill" objectFit="cover"  alt='profile'/>
-                   </div>
-                   <p className={style.name}>IGNACIO NUÑEZ</p>
+                    <div className={style.image_rounded}>
+                        <Image src="/images/user.png" layout="fill" objectFit="cover" alt='profile' />
+                    </div>
+                    <p className={style.name}>IGNACIO NUÑEZ</p>
                 </div>
 
                 <div className={style.icons}>
-                    <MdEmail 
-                        className={style.icono}
-                        color='#ffffff'
-                        size={24}
-                    />
-                    <IoNotifications 
-                          className={style.icono}
-                          color='#ffffff'
-                          size={24}
-                    />
-                    <IoMdMore 
-                          className={style.icono}
-                          color='#ffffff'
-                          size={24}
-                    />
+                    <div className={style.box_icons}>
+                        <MdEmail
+                            className={style.icono}
+                            color='#ffffff'
+                            size={24}
+                        />
+                    </div>
+                    <div className={style.box_icons}>
+                        <IoNotifications
+                            className={style.icono}
+                            color='#ffffff'
+                            size={24}
+                        />
+                    </div>
+                    <div >
+                        <IoMdMore
+                            className={style.icono}
+                            color='#ffffff'
+                            size={24}
+                        />
+                    </div>
                 </div>
             </div>
         </div>
