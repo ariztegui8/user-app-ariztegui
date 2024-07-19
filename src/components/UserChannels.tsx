@@ -21,7 +21,7 @@ const UserChannels = () => {
                 </div>
 
                 <div className={style.image_user}>
-                    <Image className={style.image_user_rounded} src="/images/user.png" layout="fill" objectFit="cover" alt='profile' />
+                    <Image className={style.image_user_rounded} src="/images/user.png" fill sizes="200px" style={{ objectFit: 'cover' }}  alt='profile' />
                     <div className={style.image_icon}>
                         <CiEdit
                             size={22}

@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className={style.navbar_padre}>
                 <div className={style.logo}>
                     <div className={style.image_rounded}>
-                        <Image src="/images/user.png" layout="fill" objectFit="cover" alt='profile' />
+                        <Image src="/images/user.png" priority fill sizes="40px" style={{ objectFit: 'cover' }}  alt='profile' />
                     </div>
                     <p className={style.name}>IGNACIO NUÑEZ</p>
                 </div>
