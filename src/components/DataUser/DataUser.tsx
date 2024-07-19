@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/dataUser.module.css'
+import style from './dataUser.module.css'
 import { PiClipboardTextBold } from "react-icons/pi";
 import { IoCalendarOutline } from "react-icons/io5";
 import { FaPassport } from "react-icons/fa";

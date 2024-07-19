@@ -1,10 +1,10 @@
 import React from 'react'
-import style from '../app/styles/sobreMi.module.css'
-import DataUser from './DataUser'
-import DataContact from './DataContact'
-import SobreMiUser from './SobreMiUser'
+import style from './sobreMi.module.css'
+import DataUser from '../DataUser/DataUser'
+import DataContact from '../DataContact/DataContact'
 import { CiEdit } from 'react-icons/ci'
-import UserChannels from './UserChannels'
+import UserChannels from '../UserChannels/UserChannels'
+import SobreMiUser from '../SobreMiUser/SobreMiUser'
 
 const SobreMi = () => {
   return (

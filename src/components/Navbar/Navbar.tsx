@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/navbar.module.css'
+import style from './navbar.module.css'
 import { MdEmail } from "react-icons/md";
 import { IoNotifications } from "react-icons/io5";
 import { IoMdMore } from "react-icons/io";

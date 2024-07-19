@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/intereses.module.css'
+import style from './intereses.module.css'
 import Image from 'next/image'
 
 const Intereses = () => {

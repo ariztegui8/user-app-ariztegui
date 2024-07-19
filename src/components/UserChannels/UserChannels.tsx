@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/userChannels.module.css'
+import style from './userChannels.module.css'
 import Image from 'next/image'
 import { CiEdit } from 'react-icons/ci'
 import { FaPhoneAlt } from 'react-icons/fa'

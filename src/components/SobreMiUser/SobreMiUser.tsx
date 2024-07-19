@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/sobreMiUser.module.css'
+import style from './sobreMiUser.module.css'
 import { CiEdit } from "react-icons/ci";
 import Image from 'next/image';
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/tabs.module.css'
+import style from './tabs.module.css'
 import { FiSearch } from "react-icons/fi";
 
 type TabsProps = {

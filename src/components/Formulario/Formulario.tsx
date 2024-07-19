@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import style from '../app/styles/formulario.module.css'
+import style from './formulario.module.css'
 import Image from 'next/image'
 import { toast } from 'react-toastify'
 

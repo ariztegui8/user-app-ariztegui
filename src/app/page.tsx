@@ -1,15 +1,15 @@
 'use client'
-import ColumnIcons from '@/components/ColumnIcons'
 import React, { useState } from 'react'
 import style from '../app/styles/page.module.css'
-import Tabs from '@/components/Tabs'
-import SobreMi from '@/components/SobreMi'
-import UserChannels from '@/components/UserChannels'
-import Intereses from '@/components/Intereses'
-import Formulario from '@/components/Formulario'
 import 'react-toastify/dist/ReactToastify.css'
 import { ToastContainer } from "react-toastify"
 import { CiEdit } from 'react-icons/ci'
+import ColumnIcons from '@/components/ColumnIcons/ColumnIcons'
+import Formulario from '@/components/Formulario/Formulario'
+import Intereses from '@/components/Intereses/Intereses'
+import SobreMi from '@/components/SobreMi/SobreMi'
+import Tabs from '@/components/Tabs/Tabs'
+import UserChannels from '@/components/UserChannels/UserChannels'
 
 const Home = () => {
 

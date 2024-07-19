@@ -5,7 +5,7 @@ import { LuUsers } from "react-icons/lu";
 import { RiLineChartLine } from "react-icons/ri";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoChevronDownOutline } from "react-icons/io5";
-import style from '@/app/styles/columnIcons.module.css'
+import style from './columnIcons.module.css'
 
 type ColunmIconsProps = {
     handleMenuColumn: () => void;
