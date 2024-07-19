@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../app/styles/dataContact.module.css'
+import style from '@/app/styles/dataContact.module.css'
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
